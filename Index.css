@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+  background-color:white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  z-index: 1000;
+  
+    
+}
+
+.try{
+    width: 30px;
+    display: block;
+    
+}
+
+.h{
+    margin-right: 50px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+    
+
+}
+li:hover{
+   
+    background: green;
+    text-decoration: none;
+}
+.boy{
+    text-align: justify;
+}
+
+.one{
+    background-image: url(image/mine.jpg.jpg);
+    height: 100vh;
+    background-position: center top;
+    background-size: cover;
+}
+.two{
+    padding: 100px 0px;
+
+}
+.three{
+    padding: 100px 0px;
+}
+.four{
+    padding: 100px 0px;
+}
+.bet{
+    background-color: gold;
+    font-size: 30px;
+}
+
+
+@media(max-width:996px){
+    .apapa{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        grid-auto-rows: minmax(300px,auto);
+    }  
+}
+
+@media(max-width:760px){
+    .apapa{
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 1em;
+        grid-auto-rows: minmax(300px,auto);
+    }  
+}
+.fet{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer{
+    background-color: black;
+    margin-top: 40px;
+
+}
+
+.foot{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.text{
+    text-align: justify;
+}
+.a{
+    padding: 1em;
+    
+    font-size: 20px;
+    background-color: white;
+}
+.hero h1{
+    font-size: 40px;
+}
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    background: gold;
+}
+
+.three{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    background: gold;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+    border-top: 5px solid gold;
+    
+    
+}
+.bangura{
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px black solid;
+    
+}
+
+.butt a{
+    text-decoration: none;
+
+}
+.butt{
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.five{
+    padding: 100px 0px;
+    
+}
+.two2{
+    background-color:gold;
+    color: black;
+}
+.one1{
+    background-color: blue;
+    color: white;
+}
+
+
+.pic:hover{
+transform: translateY(-10px);
+}
+.three3{
+    margin-right: 30px;
+    background-color: blue;
+    
+}
+
+.onee{
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+.twooo{
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+.threee{
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.fourr{
+    font-size: 50px;
+    background-color: gold;
+    color: white;
+   margin-top: 20px;
+}
+
+.jk{
+    text-align: center;
+    background-color: yellow;
+}
+
+.jkk{
+    text-align: center;
+    background-color: grey;
+}
+
+.apapa{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    grid-auto-rows: minmax(300px,auto);
+
+}
+.zi{
+    background-color: gold;
+    font-size: 30px;
+    border-radius: 40px;
+    color: white;
+    padding: 10px 5px;
+}
+
+footer{
+    background: gold;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+/* Mobile responsive- important for Freetown*/
+
+
+/*@media(max-width:700px){
+.services {flex-direction:column; align-items:center;}
+header{flex-direction:column;}
+}
+*/
+
+
+@media(max-width:1020px){
+    nav ul li{
+        display: flex;
+    
+        flex-direction: column;
+        color: white;
+    
+    
+    }
+    try{
+        display: block;
+    }
+
+    nav ul{
+        position: fixed;
+        background-color: blue;
+        width: 200px;
+        height: 100%;
+        right: -300px;
+        z-index: 2;
+        padding:10px;
+        transition: 0.3s ease;
+    }
+}
+.h{
+    margin-right: 50px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
